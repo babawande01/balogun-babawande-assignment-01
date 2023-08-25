@@ -81,10 +81,10 @@ assignment.countEvenNumbersWithin = countEvenNumbersWithin;
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
     let result = [];
-    for (let celsius of arrayOfNumbers) {
-    let fahrenheit = Math.trunc((celsius * 9/5) + 32);
-    result.push(fahrenheit);
-  }
+  //   for (let celsius of arrayOfNumbers) {
+  //   let fahrenheit = Math.trunc((celsius * 9/5) + 32);
+  //   result.push(fahrenheit);
+  // }
 
     return result;
 }
